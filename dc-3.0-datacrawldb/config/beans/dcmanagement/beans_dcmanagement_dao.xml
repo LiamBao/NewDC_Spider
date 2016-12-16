@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<!--DON'T MODIFY ME -->
+<beans>
+
+	<bean id="siteDAO" class="com.cic.datacrawl.management.dao.oracle.SiteDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<bean id="batchInfoDAO" class="com.cic.datacrawl.management.dao.oracle.BatchInfoDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--SubTask -->
+
+	<bean id="subTaskDAO" class="com.cic.datacrawl.management.dao.oracle.SubTaskDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--Task -->
+
+	<bean id="taskDAO" class="com.cic.datacrawl.management.dao.oracle.TaskDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--AgentInfo -->
+
+	<bean id="agentInfoDAO" class="com.cic.datacrawl.management.dao.oracle.AgentInfoDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--User -->
+
+	<bean id="userDAO" class="com.cic.datacrawl.management.dao.oracle.UserDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--Dict -->
+
+	<bean id="dictDAO" class="com.cic.datacrawl.management.dao.oracle.DictDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--Configuration -->
+
+	<bean id="configurationDAO" class="com.cic.datacrawl.management.dao.oracle.ConfigurationDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--TaskDueMessageUser -->
+
+	<bean id="taskDueMessageUserDAO"
+		class="com.cic.datacrawl.management.dao.oracle.TaskDueMessageUserDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--Account -->
+
+	<bean id="accountDAO" class="com.cic.datacrawl.management.dao.oracle.AccountDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+	<!--Group -->
+
+	<bean id="groupDAO" class="com.cic.datacrawl.management.dao.oracle.GroupDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+
+</beans>

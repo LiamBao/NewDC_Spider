@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--DON'T MODIFY ME-->
+<beans>
+	<bean id="controlInitialization" class="com.cic.datacrawl.control.initialization.ControlInitialization"/>
+	<!--TaskExecuteRecord-->
+	<bean id="taskExecuteRecordManager" class="com.cic.datacrawl.control.manager.TaskExecuteRecordManager">
+		<property name="taskExecuteRecordDAO"><ref local="taskExecuteRecordDAO"/></property>
+	</bean>
+  	<bean id="taskExecuteRecordDAO" class="com.cic.datacrawl.control.dao.TaskExecuteRecordDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--TaskDefine-->
+	<bean id="taskDefineManager" class="com.cic.datacrawl.control.manager.TaskDefineManager">
+		<property name="taskDefineDAO"><ref local="taskDefineDAO"/></property>
+	</bean>
+  	<bean id="taskDefineDAO" class="com.cic.datacrawl.control.dao.TaskDefineDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--Site-->
+	<bean id="siteManager" class="com.cic.datacrawl.control.manager.SiteManager">
+		<property name="siteDAO"><ref local="siteDAO"/></property>
+	</bean>
+  	<bean id="siteDAO" class="com.cic.datacrawl.control.dao.SiteDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--FixForumPostRecord-->
+	<bean id="fixForumPostRecordManager" class="com.cic.datacrawl.control.manager.FixForumPostRecordManager">
+		<property name="fixForumPostRecordDAO"><ref local="fixForumPostRecordDAO"/></property>
+	</bean>
+  	<bean id="fixForumPostRecordDAO" class="com.cic.datacrawl.control.dao.FixForumPostRecordDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--FixForumThreadRecord-->
+	<bean id="fixForumThreadRecordManager" class="com.cic.datacrawl.control.manager.FixForumThreadRecordManager">
+		<property name="fixForumThreadRecordDAO"><ref local="fixForumThreadRecordDAO"/></property>
+	</bean>
+  	<bean id="fixForumThreadRecordDAO" class="com.cic.datacrawl.control.dao.FixForumThreadRecordDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--RecordMessage-->
+	<bean id="recordMessageManager" class="com.cic.datacrawl.control.manager.RecordMessageManager">
+		<property name="recordMessageDAO"><ref local="recordMessageDAO"/></property>
+	</bean>
+  	<bean id="recordMessageDAO" class="com.cic.datacrawl.control.dao.RecordMessageDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--InternetCheckAddress-->
+	<bean id="internetCheckAddressManager" class="com.cic.datacrawl.control.manager.InternetCheckAddressManager">
+		<property name="internetCheckAddressDAO"><ref local="internetCheckAddressDAO"/></property>
+	</bean>
+  	<bean id="internetCheckAddressDAO" class="com.cic.datacrawl.control.dao.InternetCheckAddressDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--InternetAccessStatus-->
+	<bean id="internetAccessStatusManager" class="com.cic.datacrawl.control.manager.InternetAccessStatusManager">
+		<property name="internetAccessStatusDAO"><ref local="internetAccessStatusDAO"/></property>
+	</bean>
+  	<bean id="internetAccessStatusDAO" class="com.cic.datacrawl.control.dao.InternetAccessStatusDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+	<!--SiteAccount-->
+	<bean id="siteAccountManager" class="com.cic.datacrawl.control.manager.SiteAccountManager">
+		<property name="siteAccountDAO"><ref local="siteAccountDAO"/></property>
+	</bean>
+  	<bean id="siteAccountDAO" class="com.cic.datacrawl.control.dao.SiteAccountDAOImpl">
+  		<property name="dataSource"><ref bean="dataSource"/></property>
+	</bean>
+	
+</beans>

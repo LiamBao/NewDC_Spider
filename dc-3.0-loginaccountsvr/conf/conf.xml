@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!-- Put site-specific property overrides in this file. -->
+<configuration>
+<property>
+<name>account.center.address</name>
+<value>10.150.0.134</value>
+</property>
+
+<property>
+<name>account.center.port</name>
+<value>16003</value>
+</property>
+
+
+<property>
+<name>data.collection.num.handlers</name>
+<value>150</value>
+</property>
+
+<property>
+<name>account.center.cache.enable.time</name>
+<value>600</value>
+</property>
+
+<property>
+<name>account.center.lock.hold.time</name>
+<value>10</value>
+</property>
+<!-- 扫描站点账号列表时间间隔	 10分钟	600000-->
+<property>
+<name>scan.site.cookie.interval</name>
+<value>600000</value>
+</property>
+<!-- 扫描待清理账号列表时间间隔 	10分钟 -->
+<property>
+<name>scan.waitclear.cookie.interval</name>
+<value>600000</value>
+</property>
+<!-- 扫描数据库时间间隔 	10分钟 -->
+<property>
+<name>scan.database.interval</name>
+<value>600000</value>
+</property>
+
+<!-- 站点账号失效时间 	2小时 7200000-->
+<property>
+<name>site.account.timeout</name>
+<value>7200000</value>
+</property>
+<!-- 站点线路账号失效时间	2小时  7200000-->
+<property>
+<name>site.subgroup.account.timeout</name>
+<value>7200000</value>
+</property>
+<!-- 待清理账号失效时间	1小时  3600000-->
+<property>
+<name>waitclear.site.account.timeout</name>
+<value>3600000</value>
+</property>
+
+</configuration>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="mailConfig" class="com.cic.datacrawl.core.mail.MailConfiguration">
+		<property name="host">
+			<value><![CDATA[smtp.cicdata.com]]></value>
+		</property>
+		<property name="account">
+			<value><![CDATA[cicdata@cicdata.com]]></value>
+		</property>
+		<property name="password">
+			<value><![CDATA[techproduct]]></value>
+		</property>
+		<property name="from">
+			<value><![CDATA[cicdata@cicdata.com]]></value>
+		</property>
+		<property name="textFormat">
+			<value><![CDATA[text/html]]></value>
+		</property>
+		<property name="needAuthentication" value="true"/>
+	</bean>
+</beans>

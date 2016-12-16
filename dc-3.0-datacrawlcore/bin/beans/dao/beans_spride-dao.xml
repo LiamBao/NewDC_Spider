@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-autowire="byName">
+
+	<bean id="searchResultDao" class="com.cicdata.urlspride.dao.SearchResultDao">
+		<property name="dataSource" ref="dataSourceSqlSever" />
+	</bean>
+<!-- 
+	<bean id="dataSourceSqlSever" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${db.sqlserver.driverClassName}" />
+		<property name="url" value="${db.sqlserver.jdbcUrl}" />
+		<property name="username" value="${db.sqlserver.username}" />
+		<property name="password" value="${db.sqlserver.password}" />
+		<property name="initialSize" value="${db.sqlserver.initialsize}" />
+		<property name="maxActive" value="${db.sqlserver.maxActive}" />
+		<property name="maxIdle" value="${db.sqlserver.maxIdle}" />
+		<property name="minIdle" value="${db.sqlserver.minIdle}" />
+	</bean>-->
+<bean id="dataSourceSqlSever" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+		<property name="driver" value="${db.sqlserver.driverClassName}"/>
+		<property name="driverUrl" value="${db.sqlserver.jdbcUrl}"/>
+		<property name="user" value="${db.sqlserver.username}"/>
+		<property name="password" value="${db.sqlserver.password}"/>
+		<!-- 数据库连接池配置 -->
+		<property name="houseKeepingTestSql" value="select 1"/>
+		<property name="simultaneousBuildThrottle" value="1"/>
+		<property name="testBeforeUse" value="true"/>
+		<property name="maximumConnectionCount" value="${db.sqlserver.maxActive}"/>
+		<property name="minimumConnectionCount" value="20"/>
+		<property name="alias" value="dataSourceSqlSever" />
+	</bean>	
+</beans>

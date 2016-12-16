@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="mozilla" class="com.cic.datacrawl.ui.beans.BrowserDefination">
+		<property name="name" value="mozilla"/>
+		<property name="className" value="com.cic.datacrawl.core.browser.SWTMozilla"/>
+		<property name="default" value="true"/>
+	</bean>
+	<bean id="browserList" class="com.cic.datacrawl.core.browser.tools.BrowserList">
+		<property name="browserDefinationList">
+			<list>
+				<ref bean="mozilla"/>				 
+			</list>
+		</property>
+	</bean>
+	<bean id="config" class="com.cic.datacrawl.core.config.SpringConfiguration">
+		<property name="outputPath">
+			<value><![CDATA[../../output]]></value>
+		</property>
+	</bean>
+	<bean id="saveToXml" class="com.cic.datacrawl.core.entity.SaveEntityToXML"/>
+	<!-- 
+	<bean id="saveManager" class="com.cic.datacrawl.core.entity.SaveEntityToJson">
+		<property name="businessName">
+			<value><![CDATA[discover]]></value>
+		</property>
+	</bean>
+	 -->
+	<bean id="saveManager" class="com.cic.datacrawl.core.entity.SaveEntityToCollectServer">
+		<property name="businessName">
+			<value>discover</value>
+		</property>
+<!--		<property name="agentIp">
+ 		<value>192.168.4.175</value> 
+ 			<value>192.168.0.242</value> 
+		</property>-->
+		<property name="port">
+<!-- 		 <value>16007</value>	-->
+<!-- 	-->		<value>16001</value> 
+		</property>
+	</bean>
+	
+	<bean id="taskRunnerConf" class="com.cic.datacrawl.core.system.TaskRunnerConf">
+		<property name="snapShotIp">
+			<value><![CDATA[192.168.4.179]]></value>
+		</property>
+		<property name="snapShotPort">
+			<value>16002</value>
+		</property>
+		<property name="loginAccountIp">
+			<value><![CDATA[192.168.4.179]]></value>
+		</property>
+		<property name="loginAccountPort">
+			<value>16003</value>
+		</property>
+	</bean>
+</beans>

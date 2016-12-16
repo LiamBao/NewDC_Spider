@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="globalInitialization" class="com.cic.datacrawl.core.initialize.GlobalInitialization"/>
+	<bean id="runOnStartup" class="com.cic.datacrawl.core.initialize.RunOnStartup">
+		<property name="runOnStartupScriptPathList">
+			<list>
+				<value><![CDATA[../Script/lib/Extention.js]]></value>
+				<value><![CDATA[../Script/lib/utils.js]]></value>
+				<value><![CDATA[../Script/lib/ObjectModule.js]]></value>
+				<value><![CDATA[../Script/lib/BatchUpdateSQL.js]]></value>
+				<!-- <value><![CDATA[../../Script/lib/GlobalFunction.js]]></value> -->
+				<!-- <value><![CDATA[D:\CICWork\RobotEditor\resources\TestStartupLoad.js]]></value> -->
+			</list>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:simple="http://cxf.apache.org/simple" xmlns:soap="http://cxf.apache.org/bindings/soap"
+	xmlns:cxf="http://cxf.apache.org/core" xmlns:http="http://cxf.apache.org/transports/http/configuration"
+	xmlns:http-conf="http://cxf.apache.org/transports/http/configuration"
+	xsi:schemaLocation=" 
+          http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd 
+          http://www.springframework.org/schema/beans 
+		  http://www.springframework.org/schema/beans/spring-beans-2.5.xsd 
+		  http://cxf.apache.org/transports/http/configuration	  
+		  http://cxf.apache.org/schemas/configuration/http-conf.xsd 
+          http://cxf.apache.org/bindings/soap http://cxf.apache.org/schemas/configuration/soap.xsd 
+          http://cxf.apache.org/simple http://cxf.apache.org/schemas/simple.xsd 
+          http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd"
+	default-autowire="byName">
+
+	<http:conduit name="*.http-conduit">
+		<http-conf:client ConnectionTimeout="300000"
+			ReceiveTimeout="120000" AcceptEncoding="gzip" />
+	</http:conduit>
+
+	<jaxws:client id="wsFQInputClient"
+		serviceClass="com.cicdata.iwmdata.base.fq.ws.IFileMQInputService"
+		address="${iwmdata.fq.ws.input.url}/service/wsFileMQInputService">
+		<jaxws:features>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPFeature" />
+		</jaxws:features>
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"></bean>
+		</jaxws:inInterceptors>
+		<jaxws:outInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"></bean>
+		</jaxws:outInterceptors>
+	</jaxws:client>
+
+
+	<jaxws:client id="wsFQOutputClient"
+		serviceClass="com.cicdata.iwmdata.base.fq.ws.IFileMQOutputService"
+		address="${iwmdata.fq.ws.output.url}/service/wsFileMQOutputService">
+		<jaxws:features>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPFeature" />
+		</jaxws:features>
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"></bean>
+		</jaxws:inInterceptors>
+		<jaxws:outInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"></bean>
+		</jaxws:outInterceptors>
+	</jaxws:client>
+
+
+	<jaxws:client id="wsFQRemoveClient"
+		serviceClass="com.cicdata.iwmdata.base.fq.ws.IFileMQRemoveService"
+		address="${iwmdata.fq.ws.remove.url}/service/wsFileMQRemoveService">
+		<jaxws:features>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPFeature" />
+		</jaxws:features>
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"></bean>
+		</jaxws:inInterceptors>
+		<jaxws:outInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"></bean>
+		</jaxws:outInterceptors>
+	</jaxws:client>
+	
+	<jaxws:client id="wsFQCounterClient"
+		serviceClass="com.cicdata.iwmdata.base.fq.ws.IFileMQCounterService"
+		address="${iwmdata.fq.ws.counter.url}/service/wsFileMQCounterService">
+		<jaxws:features>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPFeature" />
+		</jaxws:features>
+		<jaxws:inInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPInInterceptor"></bean>
+		</jaxws:inInterceptors>
+		<jaxws:outInterceptors>
+			<bean class="org.apache.cxf.transport.common.gzip.GZIPOutInterceptor"></bean>
+		</jaxws:outInterceptors>
+	</jaxws:client>
+	
+	<bean id="fileMQRecoverService" class="com.cicdata.iwmdata.base.fq.client.FileMQRecoverService">
+		<property name="backupPath">
+			<value>${backupPath}</value>
+		</property>
+		<property name="fileMQInputService">
+			<ref bean="wsFQInputClient" />
+		</property>
+	</bean>
+	
+	
+	
+</beans>

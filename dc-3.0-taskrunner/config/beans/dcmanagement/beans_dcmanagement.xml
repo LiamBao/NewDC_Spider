@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<!--DON'T MODIFY ME-->
+<beans>
+	<bean id="dcmanagementInitialization" class="com.cic.datacrawl.management.initialization.DcmanagementInitialization"/>
+	<!--Site-->
+	<bean id="siteManager" class="com.cic.datacrawl.management.manager.SiteManager">
+	</bean>
+	
+	<!--BatchInfo-->
+	<bean id="batchInfoManager" class="com.cic.datacrawl.management.manager.BatchInfoManager">
+		<property name="batchInfoDAO"><ref local="batchInfoDAO"/></property>
+	</bean>
+  	<bean id="batchInfoDAO" class="com.cic.datacrawl.management.dao.mysql.BatchInfoDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!--Task-->
+	<bean id="taskManager" class="com.cic.datacrawl.management.manager.TaskManager">
+		<property name="taskDAO"><ref local="taskDAO"/></property>
+	</bean>
+  	<bean id="taskDAO" class="com.cic.datacrawl.management.dao.mysql.TaskDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!-- TaskGroup -->
+	<bean id="taskGroupManager" class="com.cic.datacrawl.management.manager.TaskGroupManager">
+		<property name="taskGroupDAO"><ref local="taskGroupDAO"/></property>
+	</bean>
+	<bean id="taskGroupDAO" class="com.cic.datacrawl.management.dao.mysql.TaskGroupDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!--User-->
+	<bean id="userManager" class="com.cic.datacrawl.management.manager.UserManager">
+		<property name="userDAO"><ref local="userDAO"/></property>
+	</bean>
+  	<bean id="userDAO" class="com.cic.datacrawl.management.dao.mysql.UserDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!--Configuration-->
+	<bean id="configurationManager" class="com.cic.datacrawl.management.manager.ConfigurationManager">
+		<property name="configurationDAO"><ref local="configurationDAO"/></property>
+	</bean>
+  	<bean id="configurationDAO" class="com.cic.datacrawl.management.dao.mysql.ConfigurationDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!--TaskDueMessageUser-->
+	<bean id="taskDueMessageUserManager" class="com.cic.datacrawl.management.manager.TaskDueMessageUserManager">
+		<property name="taskDueMessageUserDAO"><ref local="taskDueMessageUserDAO"/></property>
+	</bean>
+  	<bean id="taskDueMessageUserDAO"
+		class="com.cic.datacrawl.management.dao.mysql.TaskDueMessageUserDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+	<!--Account-->
+	<bean id="accountManager" class="com.cic.datacrawl.management.manager.AccountManager">
+		<property name="accountDAO"><ref local="accountDAO"/></property>
+	</bean>
+  	<bean id="accountDAO" class="com.cic.datacrawl.management.dao.mysql.AccountDAOImpl">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+	</bean>
+	
+</beans>

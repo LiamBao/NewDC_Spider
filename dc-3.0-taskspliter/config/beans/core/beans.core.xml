@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	
+	<bean id="mozilla" class="com.cic.datacrawl.ui.beans.BrowserDefination">
+		<property name="name" value="mozilla"/>
+		<property name="className" value="com.cic.datacrawl.core.browser.SWTMozilla"/>
+		<property name="default" value="true"/>
+	</bean>
+	<bean id="browserList" class="com.cic.datacrawl.core.browser.tools.BrowserList">
+		<property name="browserDefinationList">
+			<list>
+				<ref bean="mozilla"/>				 
+			</list>
+		</property>
+	</bean>
+	<bean id="config" class="com.cic.datacrawl.core.config.SpringConfiguration">
+		<property name="outputPath">
+			<value><![CDATA[../../output]]></value>
+		</property>
+		<property name="splitMaxTask">
+			<value><![CDATA[10]]></value>
+		</property>
+	</bean>
+	<bean id="saveManager" class="com.cic.datacrawl.core.entity.SaveEntityToXML"/>
+</beans>

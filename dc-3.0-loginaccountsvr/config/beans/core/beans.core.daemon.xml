@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="taskRunnerRequestAccount" class="com.cic.datacrawl.account.rpc.impl.AccountSvrAllocateAccountExeImpl">
+	</bean>
+	<bean id="taskRunnerChangeAccount" class="com.cic.datacrawl.account.rpc.impl.AccountSvrChangeAccountExeImpl">
+	</bean>
+	<bean id="taskRunnerReturnAccount" class="com.cic.datacrawl.account.rpc.impl.AccountSvrRecoverAccountExeImpl">
+	</bean>
+	<bean id="taskRunnerUpdateAccount" class="com.cic.datacrawl.account.rpc.impl.AccountSvrUpdateAccountCookieExeImpl">
+    </bean>
+</beans>

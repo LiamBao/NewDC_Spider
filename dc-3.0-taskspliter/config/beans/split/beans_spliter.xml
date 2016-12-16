@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="spliter" class="com.cic.datacrawl.control.taskmanager.split.impl.SplitByScriptImpl" >
+		<property name="pageSize" value="20000"/>
+	</bean>
+</beans>

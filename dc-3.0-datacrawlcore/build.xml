@@ -1,0 +1,13 @@
+<project name="DataCrawler-Core" default="deploy" basedir=".">
+	<target name="jar" description="create a jar archive" >
+		<jar destfile="build/DataCrawlerCore.jar">
+			<zipfileset dir="build/classes/production/com/cic" prefix="com/cic" />
+			<zipfileset dir="build/classes/production/org/mozilla" prefix="org/mozilla" />
+			<!--<zipfileset dir="bin/org/eclipse" prefix="org/eclipse" />-->
+		</jar>
+	</target>
+	
+	<target name="deploy" depends="jar">
+		<copy todir="../../../release" file="build/DataCrawlerCore.jar" />
+	</target>
+</project>

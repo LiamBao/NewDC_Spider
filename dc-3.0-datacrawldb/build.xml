@@ -1,0 +1,11 @@
+<project name="DataCrawl-DB-Agent" default="deploy" basedir=".">
+	<target name="jar" description="create a jar archive" >
+		<jar destfile="build/DataCrawl-DB-Agent.jar">
+			<zipfileset dir="build/classes/production/com/cic" prefix="com/cic" />
+		</jar>
+	</target>
+	
+	<target name="deploy" depends="jar">
+		<copy todir="../../../release" file="build/DataCrawl-DB-Agent.jar" />
+	</target>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="agentRegister" class="com.cic.datacollection.rpc.impl.AgentRegisterExeImpl"></bean>
+	<bean id="agentRequestTask" class="com.cic.datacollection.rpc.impl.AgentGetSubTaskExeImpl"></bean>
+	<bean id="agentGetSubTaskIds" class="com.cic.datacollection.rpc.impl.AgentCheckConsistencyExeImpl"></bean>
+	<bean id="agentTaskFinishedReport" class="com.cic.datacollection.rpc.impl.AgentFinishedReportExeImpl"></bean>
+	<bean id="agentHeartBeat" class="com.cic.datacollection.rpc.impl.AgentTimerReportExeImpl"></bean>
+	<bean id="taskRunnerTimerReport" class="com.cic.datacollection.rpc.impl.TaskRunnerTimerReportExeImpl"></bean>
+	<bean id="taskRunnerFinishedReport" class="com.cic.datacollection.rpc.impl.TaskRunnerFinishedReportExeImpl"></bean>
+	<bean id="taskRunnerReportRecord" class="com.cic.datacollection.rpc.impl.AgentRecordCollectExeImpl"></bean>
+</beans>

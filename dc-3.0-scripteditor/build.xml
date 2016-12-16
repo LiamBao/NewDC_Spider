@@ -1,0 +1,14 @@
+<project name="ScriptEditor" default="deploy" basedir=".">
+	<target name="jar" description="create a jar archive" >
+		<jar destfile="build/ScriptEditor.jar">
+			<zipfileset dir="bin/" includes="**/*.png" />
+			<zipfileset dir="bin/com/cic" prefix="com/cic" />
+			<zipfileset dir="bin/org/mozilla" prefix="org/mozilla" />
+			<zipfileset dir="bin/javax/swing" prefix="javax/swing" />
+		</jar>
+	</target>
+	
+	<target name="deploy" depends="jar">
+		<copy todir="../../../release" file="build/ScriptEditor.jar" />
+	</target>
+</project>

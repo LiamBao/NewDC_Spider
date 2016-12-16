@@ -1,0 +1,2423 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Dcmanagement Entity Help</title>
+</head>
+
+<body>
+<h1><strong>Dcmanagement Entity Help</strong></h1><hr>
+
+<table summary="" border="1" cellpadding="3" cellspacing="0" width="100%">
+<tbody><tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="DcmanagementEntityFactory"><!-- --></A>
+
+<b>DcmanagementEntityFactory</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is used to create all dcmanagement entity.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Include:<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>, <a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a>, <a href="DcmanagementHelp.html#SubTask">SubTask</a>, <a href="DcmanagementHelp.html#Task">Task</a>, <a href="DcmanagementHelp.html#AgentInfo">AgentInfo</a>, <a href="DcmanagementHelp.html#User">User</a>, <a href="DcmanagementHelp.html#Dict">Dict</a>, <a href="DcmanagementHelp.html#Configuration">Configuration</a>, <a href="DcmanagementHelp.html#TaskDueMessageUser">TaskDueMessageUser</a>, <a href="DcmanagementHelp.html#Account">Account</a>, <a href="DcmanagementHelp.html#Group">Group</a></td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultSite()');">buildDefaultSite</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultSite(name, description, domain, url, infoStatus, maxInstance, processInstance, bddId, type, qaId, qa, rw, rwId, groupId)');">buildDefaultSite</a></b>(name, description, domain, url, infoStatus, maxInstance, processInstance, bddId, type, qaId, qa, rw, rwId, groupId)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>name</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>description</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>domain</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>url</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>infoStatus</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>maxInstance</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>processInstance</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>bddId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>type</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>qaId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>qa</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>rw</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>rwId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>groupId</b> as <b>long</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultBatchInfo()');">buildDefaultBatchInfo</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultBatchInfo(batchName, taskId, splitCount, splitTime)');">buildDefaultBatchInfo</a></b>(batchName, taskId, splitCount, splitTime)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>batchName</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>taskId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitCount</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitTime</b> as <b>java.sql.Timestamp</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultSubTask()');">buildDefaultSubTask</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultSubTask(agentId, agentLanIpv4, agentWanIpv4, taskId, subtaskKey, scriptFile, scriptMain, scrapeCount, status, groupId, siteId, errorCode, errorMessage, errorUrl, errorSentFlag, sort, bddId, timeout, batchId, createDayId, createTime, startTime, lastUpdateTime)');">buildDefaultSubTask</a></b>(agentId, agentLanIpv4, agentWanIpv4, taskId, subtaskKey, scriptFile, scriptMain, scrapeCount, status, groupId, siteId, errorCode, errorMessage, errorUrl, errorSentFlag, sort, bddId, timeout, batchId, createDayId, createTime, startTime, lastUpdateTime)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>agentId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>agentLanIpv4</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>agentWanIpv4</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>taskId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>subtaskKey</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>scriptFile</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>scriptMain</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>scrapeCount</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>status</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>groupId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>siteId</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>errorCode</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>errorMessage</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>errorUrl</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>errorSentFlag</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>sort</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>bddId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>timeout</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>batchId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>createDayId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>createTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>startTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastUpdateTime</b> as <b>java.sql.Timestamp</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultTask()');">buildDefaultTask</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultTask(siteId, name, description, splitType, splitFile, splitMain, scriptFile, dueTime, dueCheckFlag, dueAlarmBefore, timeout, lastSplitStatus, lastSplitMsg, enableFlag, enableSendFlag, splitWaitTime, priority, startTime, isEnableStartTime, lastSplitTime, lastSplitKey, lastSplitCount, groupId, bddId)');">buildDefaultTask</a></b>(siteId, name, description, splitType, splitFile, splitMain, scriptFile, dueTime, dueCheckFlag, dueAlarmBefore, timeout, lastSplitStatus, lastSplitMsg, enableFlag, enableSendFlag, splitWaitTime, priority, startTime, isEnableStartTime, lastSplitTime, lastSplitKey, lastSplitCount, groupId, bddId)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>siteId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>name</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>description</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitType</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitFile</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitMain</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>scriptFile</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>dueTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>dueCheckFlag</b> as <b>boolean</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>dueAlarmBefore</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>timeout</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastSplitStatus</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastSplitMsg</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>enableFlag</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>enableSendFlag</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>splitWaitTime</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>priority</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>startTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>isEnableStartTime</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastSplitTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastSplitKey</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastSplitCount</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>groupId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>bddId</b> as <b>long</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#AgentInfo">AgentInfo</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultAgentInfo()');">buildDefaultAgentInfo</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#AgentInfo">AgentInfo</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultAgentInfo(lanIpv4, wanIpv4, port, maxProcessNum, processNum, waitDtsFileCount, enable, available, groupId, registerTime, lastAccessTime, lastDTSTime)');">buildDefaultAgentInfo</a></b>(lanIpv4, wanIpv4, port, maxProcessNum, processNum, waitDtsFileCount, enable, available, groupId, registerTime, lastAccessTime, lastDTSTime)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lanIpv4</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>wanIpv4</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>port</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>maxProcessNum</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>processNum</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>waitDtsFileCount</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>enable</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>available</b> as <b>byte</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>groupId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>registerTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastAccessTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastDTSTime</b> as <b>java.sql.Timestamp</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#User">User</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultUser()');">buildDefaultUser</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#User">User</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultUser(name, email)');">buildDefaultUser</a></b>(name, email)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>name</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>email</b> as <b>java.lang.String</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultDict()');">buildDefaultDict</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultDict(type, value, text)');">buildDefaultDict</a></b>(type, value, text)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>type</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>value</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>text</b> as <b>java.lang.String</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Configuration">Configuration</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultConfiguration()');">buildDefaultConfiguration</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Configuration">Configuration</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultConfiguration(name, value)');">buildDefaultConfiguration</a></b>(name, value)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>name</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>value</b> as <b>java.lang.String</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#TaskDueMessageUser">TaskDueMessageUser</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultTaskDueMessageUser()');">buildDefaultTaskDueMessageUser</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#TaskDueMessageUser">TaskDueMessageUser</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultTaskDueMessageUser(taskId, alarmEmail)');">buildDefaultTaskDueMessageUser</a></b>(taskId, alarmEmail)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>taskId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>alarmEmail</b> as <b>java.lang.String</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultAccount()');">buildDefaultAccount</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultAccount(siteId, account, password, lastGetTime, lastGetKey, invalid)');">buildDefaultAccount</a></b>(siteId, account, password, lastGetTime, lastGetKey, invalid)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>siteId</b> as <b>long</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>account</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>password</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastGetTime</b> as <b>java.sql.Timestamp</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>lastGetKey</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>invalid</b> as <b>byte</b>.
+
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Group">Group</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultGroup()');">buildDefaultGroup</a></b>()</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new empty Dcmanagement entity.</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Group">Group</a></code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dcmanagementEntityFactory.buildDefaultGroup(name, siteCount, agentCount)');">buildDefaultGroup</a></b>(name, siteCount, agentCount)</code>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an new Dcmanagement entity, and set all properties.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>name</b> as <b>java.lang.String</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>siteCount</b> as <b>int</b>.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup <b>agentCount</b> as <b>int</b>.
+
+</td>
+</tr>
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Site"><!-- --></A>
+
+<b>Site</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录网站的名称和英文缩写
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.name');">name</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.description');">description</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.domain');">domain</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.url');">url</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.infoStatus');">infoStatus</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录进程的状态：0. 只有网站信息，1. 完成</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.maxInstance');">maxInstance</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.processInstance');">processInstance</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.bddId');">bddId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.type');">type</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.qaId');">qaId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.qa');">qa</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.rw');">rw</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.rwId');">rwId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('site.groupId');">groupId</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="BatchInfo"><!-- --></A>
+
+<b>BatchInfo</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拆分批号
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('batchInfo.batchName');">batchName</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('batchInfo.taskId');">taskId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('batchInfo.splitCount');">splitCount</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('batchInfo.splitTime');">splitTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务拆分的时间</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="SubTask"><!-- --></A>
+
+<b>SubTask</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来保存被切分后的任务，包括该任务的描述信息，使用哪个脚本，脚本调用方式，运行间隔，及其执行状况
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.agentId');">agentId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.agentLanIpv4');">agentLanIpv4</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.agentWanIpv4');">agentWanIpv4</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.taskId');">taskId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关联到SubTaskDefine中的某一个被拆分任务的定义，该任务定义可能会被删除</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.subtaskKey');">subtaskKey</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录当前任务的key，此属性从拆分脚本中带入</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.scriptFile');">scriptFile</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录当前任务执行使用的脚本名称，此属性从任务定义表中带入</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.scriptMain');">scriptMain</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录当前任务执行使用的主函数及参数，此属性从任务定义表中带入</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.scrapeCount');">scrapeCount</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.status');">status</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录进程的状态：0. 等待，1. 进行中，2. 完成，3. 错误</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.groupId');">groupId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.siteId');">siteId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.errorCode');">errorCode</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录进程的状态：0. 正常，1，2，3，4等错误号由DC定义</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.errorMessage');">errorMessage</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录进程的错误信息。</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.errorUrl');">errorUrl</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录进程出错的URL。</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.errorSentFlag');">errorSentFlag</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;错误信息发送标志：0. 初始，1. 未发送，2. 已发送</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.sort');">sort</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.bddId');">bddId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.timeout');">timeout</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从任务定义中复制的任务超时时间</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.batchId');">batchId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来关联拆分批次号的主键</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.createDayId');">createDayId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务拆分的时间</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.createTime');">createTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务拆分的时间</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.startTime');">startTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务开始的时间</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('subTask.lastUpdateTime');">lastUpdateTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在任务执行过程中，用来记录最后一次修改</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Task"><!-- --></A>
+
+<b>Task</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来定义新的任务，包括该任务的描述信息，使用哪个脚本，脚本调用方式，运行间隔
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.siteId');">siteId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可以用来描述该任务的简短文字，长度为25个汉字，或者50个英文数字符号</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.name');">name</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可以用来描述该任务的简短文字，长度为25个汉字，或者50个英文数字符号</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.description');">description</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来描述任务的详细信息，长度为200个汉字，或者400个英文数字符号</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.splitType');">splitType</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来执行该任务的脚本，保存的信息为配置文件中定义的脚本目录下的相对路径，长度为100个英文数字符号</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.splitFile');">splitFile</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来执行该任务的脚本，保存的信息为配置文件中定义的脚本目录下的相对路径，长度为100个英文数字符号</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.splitMain');">splitMain</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;执行脚本中的主函数及参数名称，长度为300个英文数字符号，例如：execute("http://www.163.com")</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.scriptFile');">scriptFile</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;记录当前任务执行使用的脚本名称，此属性从任务定义表中带入</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.dueTime');">dueTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果超过指定时间，则任务将不再会被任务拆分程序拆分</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;boolean</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.dueCheckFlag');">dueCheckFlag</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初始时候为true。为false时不发送任务到期提醒邮件</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.dueAlarmBefore');">dueAlarmBefore</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;根据用户指定的天数，在任务到期前给用户发送提醒邮件</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.timeout');">timeout</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单位：微秒，该值小于1800000（30分钟）的情况下，为未定义超时时间。不然，每个Task开始执行以后，如果超过指定时间，则任务进程停止</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.lastSplitStatus');">lastSplitStatus</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志当前任务最后一次拆分是否错误：0. 正确，1. 出错</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.lastSplitMsg');">lastSplitMsg</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当last_split_status =1时候，记录的拆分错误信息</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.enableFlag');">enableFlag</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志当前任务的是否启用：0. 未启用，1. 启用</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.enableSendFlag');">enableSendFlag</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志当前任务的是否启用：0. 未启用，1. 启用</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.splitWaitTime');">splitWaitTime</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;两次拆分操作的间隔等待时间，单位是毫秒</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.priority');">priority</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务优先级，值越大，表明优先级越高</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.startTime');">startTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.isEnableStartTime');">isEnableStartTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.lastSplitTime');">lastSplitTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.lastSplitKey');">lastSplitKey</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拆分批号由随机字符串产生</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.lastSplitCount');">lastSplitCount</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志当前任务的拆分情况：0. 无需拆分，1. 需要拆分</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.groupId');">groupId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('task.bddId');">bddId</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="AgentInfo"><!-- --></A>
+
+<b>AgentInfo</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录子任务的信息
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.lanIpv4');">lanIpv4</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.wanIpv4');">wanIpv4</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.port');">port</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.maxProcessNum');">maxProcessNum</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.processNum');">processNum</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.waitDtsFileCount');">waitDtsFileCount</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.enable');">enable</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志Agent的状态：0. 停用，1. 启用</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.available');">available</a></b></code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;标志Agent是否可用的状态：0. 不可用，1. 可用</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.groupId');">groupId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.registerTime');">registerTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.lastAccessTime');">lastAccessTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('agentInfo.lastDTSTime');">lastDTSTime</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="User"><!-- --></A>
+
+<b>User</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录用户的信息
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('user.name');">name</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('user.email');">email</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Dict"><!-- --></A>
+
+<b>Dict</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录dict的信息
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dict.type');">type</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dict.value');">value</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('dict.text');">text</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Configuration"><!-- --></A>
+
+<b>Configuration</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录configuration的信息
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('configuration.name');">name</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('configuration.value');">value</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="TaskDueMessageUser"><!-- --></A>
+
+<b>TaskDueMessageUser</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录信息通知关联表的信息
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('taskDueMessageUser.taskId');">taskId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('taskDueMessageUser.alarmEmail');">alarmEmail</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Account"><!-- --></A>
+
+<b>Account</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录登录网站的帐号和密码
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.siteId');">siteId</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.account');">account</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.password');">password</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.sql.Timestamp</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.lastGetTime');">lastGetTime</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.lastGetKey');">lastGetKey</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;byte</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('account.invalid');">invalid</a></b></code>
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="Group"><!-- --></A>
+
+<b>Group</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用来记录登录网站和Agent的分组
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;java.lang.String</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('group.name');">name</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('group.siteCount');">siteCount</a></b></code>
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" onClick="insertJavascript('group.agentCount');">agentCount</a></b></code>
+</td>
+</tr>
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="siteManager"><!-- --></A>
+
+<b>siteManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addSite(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addSite(dcmanagement)');">addSite</a></b>(Site)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The site entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of site entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteSite(id)" onClick="insertJavascript('dcmanagementManager.deleteSite(id)');">deleteSite</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for site entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteSites(ids)" onClick="insertJavascript('dcmanagementManager.deleteSites(ids)');">deleteSites</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for site entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a></code></font></td>
+<td><code><b><a href="#" name="getSites(id)" onClick="insertJavascript('dcmanagementManager.getSite(id)');">getSite</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an site entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for site entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An site entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>[]</code></font></td>
+<td><code><b><a href="#" name="getSites(id)" onClick="insertJavascript('dcmanagementManager.getSites(ids)');">getSites</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an site entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for site entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An site entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveSite(site)" onClick="insertJavascript('dcmanagementManager.saveSite(site)');">saveSite</a></b>(site)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: site</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An site entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByQA(qaId )" onClick="insertJavascript('dcmanagementManager.queryByQA(qaId )');">queryByQA</a></b>(final long qaId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an site entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long qaId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByRW(rwId )" onClick="insertJavascript('dcmanagementManager.queryByRW(rwId )');">queryByRW</a></b>(final long rwId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an site entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long rwId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByType(type )" onClick="insertJavascript('dcmanagementManager.queryByType(type )');">queryByType</a></b>(final java.lang.String type )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an site entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String type.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Site">Site</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByGroupId(groupId )" onClick="insertJavascript('dcmanagementManager.queryByGroupId(groupId )');">queryByGroupId</a></b>(final long groupId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an site entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long groupId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Site entity array which you need.
+</td>
+</tr>
+
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByQA(qaId)" onClick="insertJavascript('dcmanagementManager.countByQA(qaId)');">countByQA</a></b>(final long qaId)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long qaId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of site entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByRW(rwId)" onClick="insertJavascript('dcmanagementManager.countByRW(rwId)');">countByRW</a></b>(final long rwId)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long rwId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of site entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByType(type)" onClick="insertJavascript('dcmanagementManager.countByType(type)');">countByType</a></b>(final java.lang.String type)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String type.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of site entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByGroupId(groupId)" onClick="insertJavascript('dcmanagementManager.countByGroupId(groupId)');">countByGroupId</a></b>(final long groupId)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of site entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long groupId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of site entity in database.
+</td>
+</tr>
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="batchInfoManager"><!-- --></A>
+
+<b>batchInfoManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addBatchInfo(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addBatchInfo(dcmanagement)');">addBatchInfo</a></b>(BatchInfo)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The batchInfo entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of batchInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of batchInfo entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteBatchInfo(id)" onClick="insertJavascript('dcmanagementManager.deleteBatchInfo(id)');">deleteBatchInfo</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an batchInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for batchInfo entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteBatchInfos(ids)" onClick="insertJavascript('dcmanagementManager.deleteBatchInfos(ids)');">deleteBatchInfos</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an batchInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for batchInfo entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a></code></font></td>
+<td><code><b><a href="#" name="getBatchInfos(id)" onClick="insertJavascript('dcmanagementManager.getBatchInfo(id)');">getBatchInfo</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an batchInfo entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for batchInfo entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An batchInfo entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a>[]</code></font></td>
+<td><code><b><a href="#" name="getBatchInfos(id)" onClick="insertJavascript('dcmanagementManager.getBatchInfos(ids)');">getBatchInfos</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an batchInfo entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for batchInfo entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An batchInfo entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveBatchInfo(batchInfo)" onClick="insertJavascript('dcmanagementManager.saveBatchInfo(batchInfo)');">saveBatchInfo</a></b>(batchInfo)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an batchInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: batchInfo</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An batchInfo entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#BatchInfo">BatchInfo</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByTaskId(taskId )" onClick="insertJavascript('dcmanagementManager.queryByTaskId(taskId )');">queryByTaskId</a></b>(final long taskId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an batchInfo entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long taskId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BatchInfo entity array which you need.
+</td>
+</tr>
+
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByTaskId(taskId)" onClick="insertJavascript('dcmanagementManager.countByTaskId(taskId)');">countByTaskId</a></b>(final long taskId)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of batchInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long taskId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of batchInfo entity in database.
+</td>
+</tr>
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="subTaskManager"><!-- --></A>
+
+<b>subTaskManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addSubTask(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addSubTask(dcmanagement)');">addSubTask</a></b>(SubTask)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The subTask entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of subTask entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteSubTask(id)" onClick="insertJavascript('dcmanagementManager.deleteSubTask(id)');">deleteSubTask</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for subTask entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteSubTasks(ids)" onClick="insertJavascript('dcmanagementManager.deleteSubTasks(ids)');">deleteSubTasks</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for subTask entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a></code></font></td>
+<td><code><b><a href="#" name="getSubTasks(id)" onClick="insertJavascript('dcmanagementManager.getSubTask(id)');">getSubTask</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an subTask entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for subTask entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An subTask entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a>[]</code></font></td>
+<td><code><b><a href="#" name="getSubTasks(id)" onClick="insertJavascript('dcmanagementManager.getSubTasks(ids)');">getSubTasks</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an subTask entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for subTask entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An subTask entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveSubTask(subTask)" onClick="insertJavascript('dcmanagementManager.saveSubTask(subTask)');">saveSubTask</a></b>(subTask)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: subTask</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An subTask entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByTaskId(taskId )" onClick="insertJavascript('dcmanagementManager.queryByTaskId(taskId )');">queryByTaskId</a></b>(final long taskId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an subTask entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long taskId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SubTask entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByIP(agentLanIpv4 )" onClick="insertJavascript('dcmanagementManager.queryByIP(agentLanIpv4 )');">queryByIP</a></b>(final java.lang.String agentLanIpv4 )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an subTask entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String agentLanIpv4.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SubTask entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByIPStatus(agentLanIpv4,status )" onClick="insertJavascript('dcmanagementManager.queryByIPStatus(agentLanIpv4,status )');">queryByIPStatus</a></b>(final java.lang.String agentLanIpv4, final byte status )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an subTask entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String agentLanIpv4, final byte status.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SubTask entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByStatus(status )" onClick="insertJavascript('dcmanagementManager.queryByStatus(status )');">queryByStatus</a></b>(final byte status )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an subTask entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final byte status.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SubTask entity array which you need.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#SubTask">SubTask</a></code></font></td>
+<td><code><b><a href="#" name="queryByIPStatus(agentLanIpv4,status,taskId )" onClick="insertJavascript('dcmanagementManager.queryByIPStatus(agentLanIpv4,status,taskId )');">queryByIPStatus</a></b>(final java.lang.String agentLanIpv4, final byte status, final long taskId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an subTask entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String agentLanIpv4, final byte status, final long taskId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The subTask entity which you need.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByIPStatus(agentLanIpv4,status)" onClick="insertJavascript('dcmanagementManager.countByIPStatus(agentLanIpv4,status)');">countByIPStatus</a></b>(final java.lang.String agentLanIpv4, final byte status)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String agentLanIpv4, final byte status.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of subTask entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByStatus(status)" onClick="insertJavascript('dcmanagementManager.countByStatus(status)');">countByStatus</a></b>(final byte status)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final byte status.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of subTask entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;long</code></font></td>
+<td><code><b><a href="#" name="countByBatchId(batchId,status,taskId)" onClick="insertJavascript('dcmanagementManager.countByBatchId(batchId,status,taskId)');">countByBatchId</a></b>(final long batchId, final byte status, final long taskId)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of subTask entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long batchId, final byte status, final long taskId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of subTask entity in database.
+</td>
+</tr>
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="taskManager"><!-- --></A>
+
+<b>taskManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addTask(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addTask(dcmanagement)');">addTask</a></b>(Task)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The task entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of task entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of task entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteTask(id)" onClick="insertJavascript('dcmanagementManager.deleteTask(id)');">deleteTask</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an task entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for task entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteTasks(ids)" onClick="insertJavascript('dcmanagementManager.deleteTasks(ids)');">deleteTasks</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an task entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for task entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a></code></font></td>
+<td><code><b><a href="#" name="getTasks(id)" onClick="insertJavascript('dcmanagementManager.getTask(id)');">getTask</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an task entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for task entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An task entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a>[]</code></font></td>
+<td><code><b><a href="#" name="getTasks(id)" onClick="insertJavascript('dcmanagementManager.getTasks(ids)');">getTasks</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an task entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for task entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An task entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveTask(task)" onClick="insertJavascript('dcmanagementManager.saveTask(task)');">saveTask</a></b>(task)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an task entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: task</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An task entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByEnableFlag(enableFlag )" onClick="insertJavascript('dcmanagementManager.queryByEnableFlag(enableFlag )');">queryByEnableFlag</a></b>(final byte enableFlag )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an task entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final byte enableFlag.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task entity array which you need.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Task">Task</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryBySiteId(siteId )" onClick="insertJavascript('dcmanagementManager.queryBySiteId(siteId )');">queryBySiteId</a></b>(final long siteId )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an task entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long siteId.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task entity array which you need.
+</td>
+</tr>
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="agentInfoManager"><!-- --></A>
+
+<b>agentInfoManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addAgentInfo(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addAgentInfo(dcmanagement)');">addAgentInfo</a></b>(AgentInfo)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The agentInfo entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of agentInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of agentInfo entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteAgentInfo(id)" onClick="insertJavascript('dcmanagementManager.deleteAgentInfo(id)');">deleteAgentInfo</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an agentInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for agentInfo entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteAgentInfos(ids)" onClick="insertJavascript('dcmanagementManager.deleteAgentInfos(ids)');">deleteAgentInfos</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an agentInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for agentInfo entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#AgentInfo">AgentInfo</a></code></font></td>
+<td><code><b><a href="#" name="getAgentInfos(id)" onClick="insertJavascript('dcmanagementManager.getAgentInfo(id)');">getAgentInfo</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an agentInfo entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for agentInfo entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An agentInfo entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#AgentInfo">AgentInfo</a>[]</code></font></td>
+<td><code><b><a href="#" name="getAgentInfos(id)" onClick="insertJavascript('dcmanagementManager.getAgentInfos(ids)');">getAgentInfos</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an agentInfo entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for agentInfo entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An agentInfo entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveAgentInfo(agentInfo)" onClick="insertJavascript('dcmanagementManager.saveAgentInfo(agentInfo)');">saveAgentInfo</a></b>(agentInfo)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an agentInfo entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: agentInfo</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An agentInfo entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="userManager"><!-- --></A>
+
+<b>userManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addUser(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addUser(dcmanagement)');">addUser</a></b>(User)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The user entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of user entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of user entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteUser(id)" onClick="insertJavascript('dcmanagementManager.deleteUser(id)');">deleteUser</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an user entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for user entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteUsers(ids)" onClick="insertJavascript('dcmanagementManager.deleteUsers(ids)');">deleteUsers</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an user entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for user entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#User">User</a></code></font></td>
+<td><code><b><a href="#" name="getUsers(id)" onClick="insertJavascript('dcmanagementManager.getUser(id)');">getUser</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an user entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for user entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An user entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#User">User</a>[]</code></font></td>
+<td><code><b><a href="#" name="getUsers(id)" onClick="insertJavascript('dcmanagementManager.getUsers(ids)');">getUsers</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an user entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for user entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An user entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveUser(user)" onClick="insertJavascript('dcmanagementManager.saveUser(user)');">saveUser</a></b>(user)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an user entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: user</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An user entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="dictManager"><!-- --></A>
+
+<b>dictManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addDict(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addDict(dcmanagement)');">addDict</a></b>(Dict)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dict entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of dict entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of dict entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteDict(id)" onClick="insertJavascript('dcmanagementManager.deleteDict(id)');">deleteDict</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an dict entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for dict entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteDicts(ids)" onClick="insertJavascript('dcmanagementManager.deleteDicts(ids)');">deleteDicts</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an dict entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for dict entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a></code></font></td>
+<td><code><b><a href="#" name="getDicts(id)" onClick="insertJavascript('dcmanagementManager.getDict(id)');">getDict</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an dict entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for dict entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An dict entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a>[]</code></font></td>
+<td><code><b><a href="#" name="getDicts(id)" onClick="insertJavascript('dcmanagementManager.getDicts(ids)');">getDicts</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an dict entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for dict entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An dict entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveDict(dict)" onClick="insertJavascript('dcmanagementManager.saveDict(dict)');">saveDict</a></b>(dict)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an dict entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: dict</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An dict entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryByType(type )" onClick="insertJavascript('dcmanagementManager.queryByType(type )');">queryByType</a></b>(final java.lang.String type )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an dict entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String type.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dict entity array which you need.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Dict">Dict</a></code></font></td>
+<td><code><b><a href="#" name="queryByTypeValue(type,value )" onClick="insertJavascript('dcmanagementManager.queryByTypeValue(type,value )');">queryByTypeValue</a></b>(final java.lang.String type, final java.lang.String value )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an dict entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String type, final java.lang.String value.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The dict entity which you need.
+</td>
+</tr>
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="configurationManager"><!-- --></A>
+
+<b>configurationManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addConfiguration(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addConfiguration(dcmanagement)');">addConfiguration</a></b>(Configuration)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The configuration entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of configuration entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of configuration entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteConfiguration(id)" onClick="insertJavascript('dcmanagementManager.deleteConfiguration(id)');">deleteConfiguration</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an configuration entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for configuration entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteConfigurations(ids)" onClick="insertJavascript('dcmanagementManager.deleteConfigurations(ids)');">deleteConfigurations</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an configuration entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for configuration entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Configuration">Configuration</a></code></font></td>
+<td><code><b><a href="#" name="getConfigurations(id)" onClick="insertJavascript('dcmanagementManager.getConfiguration(id)');">getConfiguration</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an configuration entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for configuration entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An configuration entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Configuration">Configuration</a>[]</code></font></td>
+<td><code><b><a href="#" name="getConfigurations(id)" onClick="insertJavascript('dcmanagementManager.getConfigurations(ids)');">getConfigurations</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an configuration entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for configuration entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An configuration entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveConfiguration(configuration)" onClick="insertJavascript('dcmanagementManager.saveConfiguration(configuration)');">saveConfiguration</a></b>(configuration)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an configuration entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: configuration</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An configuration entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="taskDueMessageUserManager"><!-- --></A>
+
+<b>taskDueMessageUserManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addTaskDueMessageUser(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addTaskDueMessageUser(dcmanagement)');">addTaskDueMessageUser</a></b>(TaskDueMessageUser)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The taskDueMessageUser entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of taskDueMessageUser entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of taskDueMessageUser entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteTaskDueMessageUser(id)" onClick="insertJavascript('dcmanagementManager.deleteTaskDueMessageUser(id)');">deleteTaskDueMessageUser</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an taskDueMessageUser entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for taskDueMessageUser entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteTaskDueMessageUsers(ids)" onClick="insertJavascript('dcmanagementManager.deleteTaskDueMessageUsers(ids)');">deleteTaskDueMessageUsers</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an taskDueMessageUser entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for taskDueMessageUser entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#TaskDueMessageUser">TaskDueMessageUser</a></code></font></td>
+<td><code><b><a href="#" name="getTaskDueMessageUsers(id)" onClick="insertJavascript('dcmanagementManager.getTaskDueMessageUser(id)');">getTaskDueMessageUser</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an taskDueMessageUser entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for taskDueMessageUser entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An taskDueMessageUser entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#TaskDueMessageUser">TaskDueMessageUser</a>[]</code></font></td>
+<td><code><b><a href="#" name="getTaskDueMessageUsers(id)" onClick="insertJavascript('dcmanagementManager.getTaskDueMessageUsers(ids)');">getTaskDueMessageUsers</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an taskDueMessageUser entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for taskDueMessageUser entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An taskDueMessageUser entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveTaskDueMessageUser(taskDueMessageUser)" onClick="insertJavascript('dcmanagementManager.saveTaskDueMessageUser(taskDueMessageUser)');">saveTaskDueMessageUser</a></b>(taskDueMessageUser)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an taskDueMessageUser entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: taskDueMessageUser</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An taskDueMessageUser entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="accountManager"><!-- --></A>
+
+<b>accountManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addAccount(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addAccount(dcmanagement)');">addAccount</a></b>(Account)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The account entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of account entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of account entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteAccount(id)" onClick="insertJavascript('dcmanagementManager.deleteAccount(id)');">deleteAccount</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an account entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for account entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteAccounts(ids)" onClick="insertJavascript('dcmanagementManager.deleteAccounts(ids)');">deleteAccounts</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an account entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for account entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a></code></font></td>
+<td><code><b><a href="#" name="getAccounts(id)" onClick="insertJavascript('dcmanagementManager.getAccount(id)');">getAccount</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an account entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for account entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An account entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a>[]</code></font></td>
+<td><code><b><a href="#" name="getAccounts(id)" onClick="insertJavascript('dcmanagementManager.getAccounts(ids)');">getAccounts</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an account entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for account entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An account entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveAccount(account)" onClick="insertJavascript('dcmanagementManager.saveAccount(account)');">saveAccount</a></b>(account)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an account entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: account</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An account entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a>[]</code></font></td>
+<td><code><b><a href="#" name="queryAccountBySiteId(siteId,invalid )" onClick="insertJavascript('dcmanagementManager.queryAccountBySiteId(siteId,invalid )');">queryAccountBySiteId</a></b>(final long siteId, final byte invalid )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an account entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long siteId, final byte invalid.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Account entity array which you need.
+</td>
+</tr>
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Account">Account</a></code></font></td>
+<td><code><b><a href="#" name="queryAccount(id,lastGetKey )" onClick="insertJavascript('dcmanagementManager.queryAccount(id,lastGetKey )');">queryAccount</a></b>(final long id, final java.lang.String lastGetKey )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an account entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final long id, final java.lang.String lastGetKey.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The account entity which you need.
+</td>
+</tr>
+
+<tr class="TableHeadingColor" bgcolor="#ccccff">
+<th colspan="2" align="left"><font size="+2"><A NAME="groupManager"><!-- --></A>
+
+<b>groupManager</b></font></th>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="addGroup(dcmanagement)" onClick="insertJavascript('dcmanagementManager.addGroup(dcmanagement)');">addGroup</a></b>(Group)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add an dcmanagement entity into database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The group entity is need be added.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="count()" onClick="insertJavascript('dcmanagementManager.count()');">count</a></b>()</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Claculate the number of group entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of group entity in database.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteGroup(id)" onClick="insertJavascript('dcmanagementManager.deleteGroup(id)');">deleteGroup</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an group entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set id for group entity which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="deleteGroups(ids)" onClick="insertJavascript('dcmanagementManager.deleteGroups(ids)');">deleteGroups</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete an group entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for group entitys which you want to delete.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of deleted rows.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Group">Group</a></code></font></td>
+<td><code><b><a href="#" name="getGroups(id)" onClick="insertJavascript('dcmanagementManager.getGroup(id)');">getGroup</a></b>(id)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an group entity from database which has id as you set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set an id for group entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An group entity has id as you set.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Group">Group</a>[]</code></font></td>
+<td><code><b><a href="#" name="getGroups(id)" onClick="insertJavascript('dcmanagementManager.getGroups(ids)');">getGroups</a></b>(ids)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an group entity array from database which id set.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: ids</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To set some id for group entitys which you want to get.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An group entity array.
+</td>
+</tr>
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;int</code></font></td>
+<td><code><b><a href="#" name="saveGroup(group)" onClick="insertJavascript('dcmanagementManager.saveGroup(group)');">saveGroup</a></b>(group)</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save an group entity in database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: group</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An group entity you want to save.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The number of save rows.
+</td>
+</tr>
+
+
+<tr class="TableRowColor" bgcolor="white">
+<td align="right" valign="top" width="1%"><font size="-1">
+<code>&nbsp;<a href="DcmanagementHelp.html#Group">Group</a></code></font></td>
+<td><code><b><a href="#" name="queryByName(name )" onClick="insertJavascript('dcmanagementManager.queryByName(name )');">queryByName</a></b>(final java.lang.String name )</code>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Query an group entity from database.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Parameters: id</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;final java.lang.String name.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Return: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The group entity which you need.
+</td>
+</tr>
+
+</tbody></table>
+
+</body>
+</html>
